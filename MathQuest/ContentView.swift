@@ -1,24 +1,15 @@
-//
-//  ContentView.swift
-//  MathQuest
-//
-//  Created by Esteban Aguilar  on 14/05/26.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("isLoggedIn") private var isLoggedIn = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if isLoggedIn {
+                MainTabView()
+            } else {
+                LoginView()
+            }
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }

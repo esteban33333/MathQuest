@@ -6,13 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5837C2142FF5DFC200DD3E94 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5837C2132FF5DFC200DD3E94 /* FirebaseAuth */; };
+		5837C2162FF5DFD400DD3E94 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5837C2152FF5DFD400DD3E94 /* FirebaseAnalytics */; };
+		5837C2182FF5E04B00DD3E94 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5837C2172FF5E04B00DD3E94 /* FirebaseCore */; };
+		5837C21A2FF5E09800DD3E94 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5837C2192FF5E09800DD3E94 /* FirebaseFirestore */; };
+		5837C21C2FF5E0A700DD3E94 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5837C21B2FF5E0A700DD3E94 /* FirebaseStorage */; };
+		5837C21E2FF5E0B100DD3E94 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5837C21D2FF5E0B100DD3E94 /* FirebaseDatabase */; };
+		589034A82FF76FBC00F77B61 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 589034A72FF76FBC00F77B61 /* GoogleSignIn */; };
+		589034AA2FF76FBC00F77B61 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 589034A92FF76FBC00F77B61 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		58CB0C012FB671D000BFEAF5 /* MathQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5837C24C2FF6F3E000DD3E94 /* Exceptions for "MathQuest" folder in "MathQuest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 58CB0C002FB671D000BFEAF5 /* MathQuest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		58CB0C032FB671D000BFEAF5 /* MathQuest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5837C24C2FF6F3E000DD3E94 /* Exceptions for "MathQuest" folder in "MathQuest" target */,
+			);
 			path = MathQuest;
 			sourceTree = "<group>";
 		};
@@ -23,16 +47,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5837C21E2FF5E0B100DD3E94 /* FirebaseDatabase in Frameworks */,
+				5837C2162FF5DFD400DD3E94 /* FirebaseAnalytics in Frameworks */,
+				5837C21A2FF5E09800DD3E94 /* FirebaseFirestore in Frameworks */,
+				589034AA2FF76FBC00F77B61 /* GoogleSignInSwift in Frameworks */,
+				5837C2182FF5E04B00DD3E94 /* FirebaseCore in Frameworks */,
+				5837C21C2FF5E0A700DD3E94 /* FirebaseStorage in Frameworks */,
+				5837C2142FF5DFC200DD3E94 /* FirebaseAuth in Frameworks */,
+				589034A82FF76FBC00F77B61 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5837C2122FF5DFC200DD3E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58CB0BF82FB671D000BFEAF5 = {
 			isa = PBXGroup;
 			children = (
 				58CB0C032FB671D000BFEAF5 /* MathQuest */,
+				5837C2122FF5DFC200DD3E94 /* Frameworks */,
 				58CB0C022FB671D000BFEAF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +105,14 @@
 			);
 			name = MathQuest;
 			packageProductDependencies = (
+				5837C2132FF5DFC200DD3E94 /* FirebaseAuth */,
+				5837C2152FF5DFD400DD3E94 /* FirebaseAnalytics */,
+				5837C2172FF5E04B00DD3E94 /* FirebaseCore */,
+				5837C2192FF5E09800DD3E94 /* FirebaseFirestore */,
+				5837C21B2FF5E0A700DD3E94 /* FirebaseStorage */,
+				5837C21D2FF5E0B100DD3E94 /* FirebaseDatabase */,
+				589034A72FF76FBC00F77B61 /* GoogleSignIn */,
+				589034A92FF76FBC00F77B61 /* GoogleSignInSwift */,
 			);
 			productName = MathQuest;
 			productReference = 58CB0C012FB671D000BFEAF5 /* MathQuest.app */;
@@ -91,9 +139,50 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				he,
+				ar,
+				el,
+				ja,
+				uk,
+				es_MX,
+				zh_CN,
+				nb,
+				es,
+				pt_BR,
+				da,
+				it,
+				sk,
+				pt_PT,
+				ms,
+				sv,
+				cs,
+				ko,
+				hu,
+				tr,
+				pl,
+				zh_TW,
+				en_GB,
+				vi,
+				ru,
+				fr_CA,
+				fr,
+				fi,
+				id,
+				nl,
+				th,
+				pt,
+				ro,
+				hr,
+				hi,
+				ca,
 			);
 			mainGroup = 58CB0BF82FB671D000BFEAF5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5837C2062FF5D84400DD3E94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				589034A62FF76FBC00F77B61 /* XCLocalSwiftPackageReference "../../Downloads/GoogleSignIn-iOS-9.2.0" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 58CB0C022FB671D000BFEAF5 /* Products */;
 			projectDirPath = "";
@@ -250,6 +339,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MathQuest/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -292,6 +382,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MathQuest/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -345,6 +436,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		589034A62FF76FBC00F77B61 /* XCLocalSwiftPackageReference "../../Downloads/GoogleSignIn-iOS-9.2.0" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/GoogleSignIn-iOS-9.2.0";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5837C2062FF5D84400DD3E94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5837C2132FF5DFC200DD3E94 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5837C2062FF5D84400DD3E94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5837C2152FF5DFD400DD3E94 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5837C2062FF5D84400DD3E94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5837C2172FF5E04B00DD3E94 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5837C2062FF5D84400DD3E94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		5837C2192FF5E09800DD3E94 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5837C2062FF5D84400DD3E94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5837C21B2FF5E0A700DD3E94 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5837C2062FF5D84400DD3E94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		5837C21D2FF5E0B100DD3E94 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5837C2062FF5D84400DD3E94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		589034A72FF76FBC00F77B61 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GoogleSignIn;
+		};
+		589034A92FF76FBC00F77B61 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58CB0BF92FB671D000BFEAF5 /* Project object */;
 }
